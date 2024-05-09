@@ -1,4 +1,6 @@
-git ou/****** General ***********/
+git ou
+
+/****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -28,26 +30,43 @@ header {
 
 ul {
     display: flex;
-    gap:40px;
-}
-
-li {
-    display: flex;
     align-self: center;
+    gap: 40px;
     list-style-type: none;
-    gap: 30px;
-    margin: none;
-    padding: none;    
 }
 
-li:hover {
-    position:static;
+.pageHeader_accomodations :hover {
     padding-top: 20px;
     border-top: solid;
     color: #0065FC;
 }
 
+.pageHeader_activities :hover {
+    padding-top: 20px;
+    border-top: solid;
+    color: #0065FC;
+}
+
+.Mainpage_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: none;
+    padding: none;
+}
+
+.Mainpage_title1 {
+    font-weight: bold;
+    height: 0px;
+}
+
+.Mainpage_title2 {
+    font-weight: 100;
+    height: 40px;
+}
+
 .main-container {
+    margin: none;
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
