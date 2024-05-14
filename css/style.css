@@ -173,7 +173,7 @@ header {
     border-radius: 30px;
 }
 
-.filterbar_listhover :hover{
+.filterbar_listhover :hover {
     background-color: #DEEBFF;
 }
 
@@ -225,11 +225,11 @@ header {
 /*****barre d'information*****/
 
 .infobar {
-   display: flex;
-   justify-content: left;
-   align-items: center;
-   gap: 10px;
-   margin: 0px 0px 30px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 0px 30px 0px;
 }
 
 .infobar i {
@@ -290,7 +290,60 @@ header {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+    width: 65%;   
+    box-sizing: border-box;
+}
+
+.hebergements-title {
+    display: flex;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 30px;
+    width: 60%;
+    height: 136px;
+    margin-top: 30px;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+    width: 100%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
 }
 
 /****** Populaires ***********/
@@ -311,7 +364,7 @@ header {
 
 .populaires-cards img {
     width: 33%;
-    height: 136px;
+    height: 140px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
