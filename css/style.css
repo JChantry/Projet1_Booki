@@ -378,6 +378,24 @@ header {
     padding-left: 15px;
 }
 
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: left;
+    background-color: #D9D9D9;   
+}
+
+.list_group {
+    display:flex;
+    flex-direction: column;
+    width: 33%;
+    list-style-type: none;
+    gap: 15px;
+    padding-left: 20px;
+}
+
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
